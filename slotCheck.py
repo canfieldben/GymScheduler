@@ -44,10 +44,10 @@ netId = driver.find_element_by_xpath("//*[@title='NetID Login']")
 netId.click()
 
 username = driver.find_element_by_id("username")
-username.send_keys("becanfie")
+username.send_keys("")
 
 password = driver.find_element_by_id("password")
-password.send_keys("Ktm_!321")
+password.send_keys("")
 
 loginEnter = driver.find_element_by_name("_eventId_proceed")
 loginEnter.click()
